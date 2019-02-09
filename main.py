@@ -103,7 +103,7 @@ def error(bot, error):
 
 def main():
     """Start the bot."""
-    updater = Updater("")
+    updater = Updater("%YOUR_BOT_TOKEN%")
 
     dp = updater.dispatcher
 
